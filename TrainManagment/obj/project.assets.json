@@ -2894,9 +2894,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\TrainManagment.csproj",
-      "projectName": "TrainManagment",
-      "projectPath": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\TrainManagment.csproj",
+      "projectUniqueName": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\TrainManagement.csproj",
+      "projectName": "TrainManagement",
+      "projectPath": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\TrainManagement.csproj",
       "packagesPath": "C:\\Users\\Олег\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\obj\\",
       "projectStyle": "PackageReference",

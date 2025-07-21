@@ -11,8 +11,8 @@ namespace TrainManagment.Interfaces
         public Task<Item?> GetItemAsync(string uniqueNumber);
         public Task CreateItemAsync(Item item);
         public void RemoveItem(Item item);
-        public Task AddQualityAsync(int itemId, int quality);
-        public  Task RemoveQualityAsync(int itemId);
+        public Task AddQuantityAsync(int itemId, int quality);
+        public  Task RemoveQuantityAsync(int itemId);
         public Task<bool> SaveChangesAsync();
     }
 }

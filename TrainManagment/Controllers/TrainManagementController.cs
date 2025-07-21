@@ -62,7 +62,7 @@ namespace TrainManagment.Controllers
             _mapper.Map(dto, item);
 
             if (!item.CanAssignQuantity)
-                await _itemRepository.RemoveQualityAsync(item.Id);
+                await _itemRepository.RemoveQuantityAsync(item.Id);
 
             if (await _itemRepository.SaveChangesAsync()) return Ok();
 
@@ -70,8 +70,8 @@ namespace TrainManagment.Controllers
         }
 
         [HttpPatch]
-        [Route("setquality")]
-        public async Task<ActionResult> SetQuality([FromBody]QuantityDTO dto)
+        [Route("setquantity")]
+        public async Task<ActionResult> SetQuantity([FromBody]QuantityDTO dto)
         {
             var item = await _itemRepository.GetItemAsync(dto.Id);
 
@@ -81,7 +81,7 @@ namespace TrainManagment.Controllers
             if (!item.CanAssignQuantity)
                 return BadRequest("Cannot change quantity for this item");
 
-            await _itemRepository.AddQualityAsync(item.Id, dto.Quantity);
+            await _itemRepository.AddQuantityAsync(item.Id, dto.Quantity);
 
             if (await _itemRepository.SaveChangesAsync()) return Ok();
 

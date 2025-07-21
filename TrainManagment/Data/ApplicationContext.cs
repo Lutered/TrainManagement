@@ -11,7 +11,7 @@ namespace TrainManagment.Data
         }
 
         public DbSet<Item> Items { get; set; }
-        public DbSet<ItemQuality> ItemQualities { get; set; }
+        public DbSet<ItemQuantity> ItemQuantities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -19,11 +19,11 @@ namespace TrainManagment.Data
                         .HasIndex(u => u.UniqueNumber)
                         .IsUnique();
 
-            modelBuilder.Entity<ItemQuality>().HasKey(x => x.ItemId);
+            modelBuilder.Entity<ItemQuantity>().HasKey(x => x.ItemId);
 
-            modelBuilder.Entity<ItemQuality>()
+            modelBuilder.Entity<ItemQuantity>()
                 .ToTable(x =>
-                    x.HasCheckConstraint("CK_Quality_Positive", "Quality > 0")
+                    x.HasCheckConstraint("CK_Quantity_Positive", "Quantity > 0")
                 );
 
             base.OnModelCreating(modelBuilder);

@@ -32,7 +32,7 @@ namespace TrainManagment.Data.Repositories
         public void RemoveItem(Item item)
             => _context.Items.Remove(item);
 
-        public async Task AddQualityAsync(int itemId, int quality)
+        public async Task AddQuantityAsync(int itemId, int quality)
         {
             if (quality < 0)
                 throw new ArgumentOutOfRangeException(nameof(quality));
@@ -43,26 +43,26 @@ namespace TrainManagment.Data.Repositories
                 throw new NullReferenceException();
 
             var qualityItem = await _context
-                                .ItemQualities
+                                .ItemQuantities
                                 .FirstOrDefaultAsync(x => x.ItemId == itemId);
 
             if (qualityItem == null)
-                await _context.ItemQualities.AddAsync(
-                        new ItemQuality()
+                await _context.ItemQuantities.AddAsync(
+                        new ItemQuantity()
                         {
                             Item = item,
-                            Quality = quality
+                            Quantity = quality
                         });
-            else qualityItem.Quality = quality;
+            else qualityItem.Quantity = quality;
         }
 
-        public async Task RemoveQualityAsync(int itemId)
+        public async Task RemoveQuantityAsync(int itemId)
         {
-            var qualityItem = await _context.ItemQualities.FirstOrDefaultAsync(x => x.ItemId == itemId);
+            var qualityItem = await _context.ItemQuantities.FirstOrDefaultAsync(x => x.ItemId == itemId);
 
             if (qualityItem == null) return;
 
-            _context.ItemQualities.Remove(qualityItem);
+            _context.ItemQuantities.Remove(qualityItem);
         }
 
         public async Task<bool> SaveChangesAsync()

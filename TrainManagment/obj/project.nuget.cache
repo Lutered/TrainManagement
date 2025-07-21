@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/xWK+7IK/x4=",
+  "dgSpecHash": "PCRH5/p0tL4=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\TrainManagment.csproj",
+  "projectFilePath": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\TrainManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Олег\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Олег\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

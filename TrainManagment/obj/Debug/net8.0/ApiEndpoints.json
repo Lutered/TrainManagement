@@ -85,8 +85,8 @@
   },
   {
     "ContainingType": "TrainManagment.Controllers.TrainManagementController",
-    "Method": "SetQuality",
-    "RelativePath": "TrainManagement/setquality",
+    "Method": "SetQuantity",
+    "RelativePath": "TrainManagement/setquantity",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,

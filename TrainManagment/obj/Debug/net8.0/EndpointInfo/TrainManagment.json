@@ -146,7 +146,7 @@
         }
       }
     },
-    "/TrainManagement/setquality": {
+    "/TrainManagement/setquantity": {
       "patch": {
         "tags": [
           "TrainManagement"

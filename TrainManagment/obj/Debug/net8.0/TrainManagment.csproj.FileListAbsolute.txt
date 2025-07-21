@@ -137,3 +137,4 @@ D:\Projects\Playgrounds\TrainManagment\TrainManagment\bin\Debug\net8.0\Swashbuck
 D:\Projects\Playgrounds\TrainManagment\TrainManagment\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Projects\Playgrounds\TrainManagment\TrainManagment\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Projects\Playgrounds\TrainManagment\TrainManagment\obj\Debug\net8.0\TrainManagment.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\Playgrounds\TrainManagment\TrainManagment\obj\Debug\net8.0\TrainManagment.sourcelink.json

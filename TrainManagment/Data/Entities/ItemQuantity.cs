@@ -1,9 +1,9 @@
 ﻿namespace TrainManagment.Data.Entities
 {
-    public class ItemQuality
+    public class ItemQuantity
     {
         public int ItemId { get; set; }
         public required Item Item { get; set; }
-        public int Quality { get; set; }
+        public int Quantity { get; set; }
     }
 }
