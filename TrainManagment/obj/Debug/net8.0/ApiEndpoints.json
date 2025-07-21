@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "Method": "CreateItem",
+    "RelativePath": "TrainManagement/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TrainManagment.DTOs.ItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "Method": "Delete",
+    "RelativePath": "TrainManagement/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "Method": "GetItem",
+    "RelativePath": "TrainManagement/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TrainManagment.Data.Entities.Item",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "Method": "GetItem",
+    "RelativePath": "TrainManagement/getbynumber/{uniquenumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uniquenumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TrainManagment.Data.Entities.Item",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "Method": "SetQuality",
+    "RelativePath": "TrainManagement/setquality",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TrainManagment.DTOs.QuantityDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "Method": "UpdateItem",
+    "RelativePath": "TrainManagement/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TrainManagment.DTOs.ItemIdDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

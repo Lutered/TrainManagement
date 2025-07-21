@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\Playgrounds\\TrainManagment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\data\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\data\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\controllers\\trainmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\controllers\\trainmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\helpers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\data\\entities\\itemquality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\data\\entities\\itemquality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\dtos\\quantitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\dtos\\quantitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\dtos\\itemiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\dtos\\itemiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\trainmanagment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\trainmanagment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\data\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\data\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|d:\\projects\\playgrounds\\trainmanagment\\trainmanagment\\data\\seed.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F6789EB-5809-4F9B-B0A4-B7AF2A679A62}|TrainManagment\\TrainManagment.csproj|solutionrelative:trainmanagment\\data\\seed.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Program.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Program.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Program.cs",
+              "RelativeToolTip": "TrainManagment\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:01:27.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Helpers\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Helpers\\AutoMapperProfiles.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Helpers\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "TrainManagment\\Helpers\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:25:10.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuantityDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\DTOs\\QuantityDTO.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\DTOs\\QuantityDTO.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\DTOs\\QuantityDTO.cs",
+              "RelativeToolTip": "TrainManagment\\DTOs\\QuantityDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T14:24:53.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TrainManagment\\appsettings.Development.json",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\appsettings.Development.json",
+              "RelativeToolTip": "TrainManagment\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T12:02:54.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Data\\ApplicationContext.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\ApplicationContext.cs",
+              "RelativeToolTip": "TrainManagment\\Data\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:48:34.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Repositories\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Data\\Repositories\\ItemRepository.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Repositories\\ItemRepository.cs",
+              "RelativeToolTip": "TrainManagment\\Data\\Repositories\\ItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:05:28.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrainManagementController.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Controllers\\TrainManagementController.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Controllers\\TrainManagementController.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Controllers\\TrainManagementController.cs",
+              "RelativeToolTip": "TrainManagment\\Controllers\\TrainManagementController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv2EAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:46:51.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemQuality.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Entities\\ItemQuality.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Data\\Entities\\ItemQuality.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Entities\\ItemQuality.cs",
+              "RelativeToolTip": "TrainManagment\\Data\\Entities\\ItemQuality.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:08:18.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemIdDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\DTOs\\ItemIdDTO.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\DTOs\\ItemIdDTO.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\DTOs\\ItemIdDTO.cs",
+              "RelativeToolTip": "TrainManagment\\DTOs\\ItemIdDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T14:23:30.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "TrainManagment\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T14:28:44.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TrainManagment",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\TrainManagment.csproj",
+              "RelativeDocumentMoniker": "TrainManagment\\TrainManagment.csproj",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\TrainManagment.csproj",
+              "RelativeToolTip": "TrainManagment\\TrainManagment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T11:46:53.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\DTOs\\ItemDTO.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\DTOs\\ItemDTO.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\DTOs\\ItemDTO.cs",
+              "RelativeToolTip": "TrainManagment\\DTOs\\ItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:20:06.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Interfaces\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Interfaces\\IItemRepository.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Interfaces\\IItemRepository.cs",
+              "RelativeToolTip": "TrainManagment\\Interfaces\\IItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:05:57.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TrainManagment\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TrainManagment\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T12:51:50.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Seed.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Data\\Seed.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Seed.cs",
+              "RelativeToolTip": "TrainManagment\\Data\\Seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:57:07.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "TrainManagment\\Data\\Entities\\Item.cs",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Entities\\Item.cs",
+              "RelativeToolTip": "TrainManagment\\Data\\Entities\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:49:36.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Seed.json",
+              "DocumentMoniker": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Seed.json",
+              "RelativeDocumentMoniker": "TrainManagment\\Data\\Seed.json",
+              "ToolTip": "D:\\Projects\\Playgrounds\\TrainManagment\\TrainManagment\\Data\\Seed.json",
+              "RelativeToolTip": "TrainManagment\\Data\\Seed.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T12:55:59.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
