@@ -1,24 +1,91 @@
 [
   {
-    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "ContainingType": "TrainManagement.Controllers.TrainManagementController",
+    "Method": "GetItems",
+    "RelativePath": "TrainManagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinQuantity",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxQuantity",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TrainManagement.Helpers.PagedList\u00601[[TrainManagement.DTOs.ComponentIdDTO, TrainManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrainManagement.Controllers.TrainManagementController",
     "Method": "CreateItem",
-    "RelativePath": "TrainManagement/create",
+    "RelativePath": "TrainManagement",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "TrainManagment.DTOs.ItemDTO",
+        "Type": "TrainManagement.DTOs.ComponentDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "ContainingType": "TrainManagement.Controllers.TrainManagementController",
+    "Method": "UpdateItem",
+    "RelativePath": "TrainManagement",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TrainManagement.DTOs.ComponentIdDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrainManagement.Controllers.TrainManagementController",
     "Method": "Delete",
-    "RelativePath": "TrainManagement/delete/{id}",
+    "RelativePath": "TrainManagement/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -32,7 +99,23 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "ContainingType": "TrainManagement.Controllers.TrainManagementController",
+    "Method": "Delete",
+    "RelativePath": "TrainManagement/{uniqueNumber}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uniqueNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrainManagement.Controllers.TrainManagementController",
     "Method": "GetItem",
     "RelativePath": "TrainManagement/get/{id}",
     "HttpMethod": "GET",
@@ -47,7 +130,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "TrainManagment.Data.Entities.Item",
+        "Type": "TrainManagement.DTOs.ComponentIdDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -58,9 +141,9 @@
     ]
   },
   {
-    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
+    "ContainingType": "TrainManagement.Controllers.TrainManagementController",
     "Method": "GetItem",
-    "RelativePath": "TrainManagement/getbynumber/{uniquenumber}",
+    "RelativePath": "TrainManagement/get/{uniquenumber}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -73,7 +156,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "TrainManagment.Data.Entities.Item",
+        "Type": "TrainManagement.DTOs.ComponentIdDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -82,37 +165,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
-    "Method": "SetQuantity",
-    "RelativePath": "TrainManagement/setquantity",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "TrainManagment.DTOs.QuantityDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TrainManagment.Controllers.TrainManagementController",
-    "Method": "UpdateItem",
-    "RelativePath": "TrainManagement/update",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "TrainManagment.DTOs.ItemIdDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

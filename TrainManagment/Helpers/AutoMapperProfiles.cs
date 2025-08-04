@@ -1,14 +1,17 @@
 ﻿using AutoMapper;
-using TrainManagment.Data.Entities;
-using TrainManagment.DTOs;
+using TrainManagement.Data.Entities;
+using TrainManagement.DTOs;
 
-namespace TrainManagment.Helpers
+namespace TrainManagement.Helpers
 {
     public class AutoMapperProfiles : Profile
     {
         public AutoMapperProfiles()
         {
-            CreateMap<ItemDTO, Item>();
+            CreateMap<ComponentDTO, Component>()
+                .ForMember(c => c.Quantity, o => o.Condition(src => src.CanAssignQuantity));
+            
+            CreateMap<Component, ComponentIdDTO>();
         }
     }
 }

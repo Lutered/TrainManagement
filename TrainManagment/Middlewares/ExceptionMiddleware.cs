@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Text.Json;
 
-namespace TrainManagment.Middlewares
+namespace TrainManagement.Middlewares
 {
     public class ExceptionMiddleware
     {

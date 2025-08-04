@@ -1,27 +1,25 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TrainManagment.Data.Entities;
+using TrainManagement.Data.Entities;
 
-namespace TrainManagment.Data
+namespace TrainManagement.Data
 {
     public class ApplicationContext : DbContext
     {
         public ApplicationContext(DbContextOptions options) : base(options)
         {
+            //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
 
-        public DbSet<Item> Items { get; set; }
-        public DbSet<ItemQuantity> ItemQuantities { get; set; }
+        public DbSet<Component> Components { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Item>()
+            modelBuilder.Entity<Component>()
                         .HasIndex(u => u.UniqueNumber)
                         .IsUnique();
 
-            modelBuilder.Entity<ItemQuantity>().HasKey(x => x.ItemId);
-
-            modelBuilder.Entity<ItemQuantity>()
+            modelBuilder.Entity<Component>()
                 .ToTable(x =>
                     x.HasCheckConstraint("CK_Quantity_Positive", "Quantity > 0")
                 );

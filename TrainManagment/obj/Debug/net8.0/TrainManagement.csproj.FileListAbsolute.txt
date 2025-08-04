@@ -138,3 +138,5 @@ D:\Projects\Playgrounds\TrainManagment\TrainManagment\obj\Debug\net8.0\refint\Tr
 D:\Projects\Playgrounds\TrainManagment\TrainManagment\obj\Debug\net8.0\TrainManagement.pdb
 D:\Projects\Playgrounds\TrainManagment\TrainManagment\obj\Debug\net8.0\TrainManagement.genruntimeconfig.cache
 D:\Projects\Playgrounds\TrainManagment\TrainManagment\obj\Debug\net8.0\ref\TrainManagement.dll
+D:\Projects\Playgrounds\TrainManagment\TrainManagment\bin\Debug\net8.0\MediatR.dll
+D:\Projects\Playgrounds\TrainManagment\TrainManagment\bin\Debug\net8.0\MediatR.Contracts.dll

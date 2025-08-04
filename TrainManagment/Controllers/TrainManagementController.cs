@@ -1,107 +1,98 @@
-﻿using AutoMapper;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using TrainManagment.Data.Entities;
-using TrainManagment.DTOs;
-using TrainManagment.Interfaces;
+using TrainManagement.DTOs;
+using TrainManagement.Helpers;
+using TrainManagement.MediatR.Commands;
+using TrainManagement.MediatR.Queries;
+using TrainManagement.Params;
 
-namespace TrainManagment.Controllers
+namespace TrainManagement.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class TrainManagementController(
-        IItemRepository _itemRepository,
-        IMapper _mapper
+        IMediator _mediator
         ) : ControllerBase
     {
         [HttpGet]
-        [Route("get/{id}")]
-        public async Task<ActionResult<Item>> GetItem(int id)
+        public async Task<ActionResult<PagedList<ComponentIdDTO>>> GetItems([FromQuery]ComponentParams componentParams, CancellationToken cancellationToken)
         {
-            var item = await _itemRepository.GetItemAsync(id);
+            var result = await _mediator.Send(new GetComponentsQuery(componentParams), cancellationToken);
 
-            if (item == null) return NotFound();
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
 
-            return item;
+            return Ok(result.Value);
         }
 
         [HttpGet]
-        [Route("getbynumber/{uniquenumber}")]
-        public async Task<ActionResult<Item>> GetItem(string uniquenumber)
+        [Route("get/{id:int}")]
+        public async Task<ActionResult<ComponentIdDTO>> GetItem(int id, CancellationToken cancellationToken)
         {
-            var item = await _itemRepository.GetItemAsync(uniquenumber);
+            var result = await _mediator.Send(new GetComponentQuery(id), cancellationToken);
 
-            if (item == null) return NotFound();
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
 
-            return item;
+            return Ok(result.Value);
+        }
+
+        [HttpGet]
+        [Route("get/{uniquenumber}")]
+        public async Task<ActionResult<ComponentIdDTO>> GetItem(string uniquenumber, CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new GetComponentQuery(uniquenumber), cancellationToken);
+
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
+
+            return Ok(result.Value);
         }
 
         [HttpPost]
-        [Route("create")]
-        public async Task<ActionResult> CreateItem([FromBody] ItemDTO dto)
+        public async Task<ActionResult> CreateItem([FromBody] ComponentDTO dto, CancellationToken cancellationToken)
         {
-            if (await _itemRepository.IsExistsAsync(dto.UniqueNumber))
-                return BadRequest($"Item with unique number - {dto.UniqueNumber} already exists");
+            var result = await _mediator.Send(new CreateComponentCommand(dto), cancellationToken);
 
-            var recordToAdd = _mapper.Map<Item>(dto);
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
 
-            await _itemRepository.CreateItemAsync(recordToAdd);
-            if (await _itemRepository.SaveChangesAsync()) return Created();
-
-            return BadRequest("Failed to create user");
+            return Created();
         }
 
         [HttpPut]
-        [Route("update")]
-        public async Task<ActionResult> UpdateItem([FromBody] ItemIdDTO dto)
+        public async Task<ActionResult> UpdateItem([FromBody] ComponentIdDTO dto, CancellationToken cancellationToken)
         {
-            var item = await _itemRepository.GetItemAsync(dto.Id);
+            var result = await _mediator.Send(new UpdateComponentCommand(dto), cancellationToken);
 
-            if (item == null)
-                return BadRequest($"Item with unique number - {dto.UniqueNumber} does not exists");
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
 
-            _mapper.Map(dto, item);
-
-            if (!item.CanAssignQuantity)
-                await _itemRepository.RemoveQuantityAsync(item.Id);
-
-            if (await _itemRepository.SaveChangesAsync()) return Ok();
-
-            return BadRequest("Failed to update user");
-        }
-
-        [HttpPatch]
-        [Route("setquantity")]
-        public async Task<ActionResult> SetQuantity([FromBody]QuantityDTO dto)
-        {
-            var item = await _itemRepository.GetItemAsync(dto.Id);
-
-            if (item == null)
-                return BadRequest($"Item with Id - {dto.Id} does not exists");
-
-            if (!item.CanAssignQuantity)
-                return BadRequest("Cannot change quantity for this item");
-
-            await _itemRepository.AddQuantityAsync(item.Id, dto.Quantity);
-
-            if (await _itemRepository.SaveChangesAsync()) return Ok();
-
-            return BadRequest("Failed to change quantity");
+            return Ok();
         }
 
         [HttpDelete]
-        [Route("delete/{id}")]
-        public async Task<ActionResult> Delete(int id)
+        [Route("{id:int}")]
+        public async Task<ActionResult> Delete(int id, CancellationToken cancellationToken)
         {
-            var item = await _itemRepository.GetItemAsync(id);
+            var result = await _mediator.Send(new DeleteComponentCommand(id), cancellationToken);
 
-            if (item == null)
-                return BadRequest($"Item with Id - {id} does not exists");
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
 
-            _itemRepository.RemoveItem(item);
+            return Ok();
+        }
 
-            if (await _itemRepository.SaveChangesAsync()) return Ok();
+        [HttpDelete]
+        [Route("{uniqueNumber}")]
+        public async Task<ActionResult> Delete(string uniqueNumber, CancellationToken cancellationToken)
+        {
+            var result = await _mediator.Send(new DeleteComponentCommand(uniqueNumber), cancellationToken);
 
-            return BadRequest("Failed to delete user");
+            if (!result.IsSuccess)
+                return BadRequest(result.Error);
+
+            return Ok();
         }
     }
 }

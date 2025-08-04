@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using TrainManagment.Data;
-using TrainManagment.Data.Repositories;
-using TrainManagment.Interfaces;
-using TrainManagment.Middlewares;
+using System.Reflection;
+using TrainManagement.Data;
+using TrainManagement.Data.Repositories;
+using TrainManagement.Interfaces;
+using TrainManagement.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,12 +17,17 @@ builder.Services.AddDbContext<ApplicationContext>(opt =>
     opt.UseSqlite(builder.Configuration.GetConnectionString("DBConnection"));
 });
 
-builder.Services.AddScoped<IItemRepository, ItemRepository>();
+builder.Services.AddScoped<IComponentRepository, ComponentRepository>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+});
 
 var app = builder.Build();
 
